@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/Baizhi"
+        android:layout_width="219dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:text="在白纸上画" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/paizhao"
+        android:layout_width="219dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:text="拍照了画" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/tuku"
+        android:layout_width="214dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:text="从图库中选择" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+</LinearLayout>
